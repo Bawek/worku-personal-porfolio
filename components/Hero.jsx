@@ -105,7 +105,7 @@ const Hero = () => {
             className="pb-2 text-3xl font-semibold tracking-tight border-b min-h-12 lg:mt-3 border-b-border scroll-m-20 first:mt-0"
           >
             <Typewriter
-              texts={PortfolioData.typewriterTexts.map(text => `${text}${multipleSpaces}`)}
+              texts={PortfolioData.typewriterTexts?.map(text => `${text}${multipleSpaces}`)}
               speed={100}
               isInView={isInView}
             />
