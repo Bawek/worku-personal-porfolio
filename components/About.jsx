@@ -77,7 +77,7 @@ const About = () => {
         >
           {PortfolioData.about.expertiseTitle}
         </motion.h2>
-        {expertise.map((item, index) => (
+        {expertise?.map((item, index) => (
           <motion.div key={index} className="mt-6" variants={leftToRight} initial="initial" whileInView="animate">
             <Card className="dark:bg-cardBg">
               <CardHeader>

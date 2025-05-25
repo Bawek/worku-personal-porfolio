@@ -135,7 +135,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <div className="grid gap-4 ">
-                {contactDetails.map((detail) => (
+                {contactDetails?.map((detail) => (
                   <Link
                     href={detail.link}
                     key={detail.id}

@@ -49,7 +49,7 @@ const Navbar = () => {
     >
       <Link href="/" scroll={false} onClick={() => handleClick("home")}>
         <div className="flex text-base uppercase xs:text-2xl lg:text-3xl font-playfair">
-          {letters.map((letter, index) => (
+          {letters?.map((letter, index) => (
             <div
               key={index}
               className="animate-glow"
