@@ -239,7 +239,7 @@ export default function Chatbot() {
                     or expertise.
                   </p>
                   <div className="flex flex-wrap justify-center gap-2">
-                    {templateQuestions.map((question, idx) => (
+                    {templateQuestions?.map((question, idx) => (
                       <Button
                         key={idx}
                         variant="outline"
@@ -253,7 +253,7 @@ export default function Chatbot() {
                   </div>
                 </div>
               ) : (
-                messages.map((msg, idx) => (
+                messages?.map((msg, idx) => (
                   <div
                     key={idx}
                     className={cn(
