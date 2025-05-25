@@ -12,32 +12,32 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 // Helper functions to format data into prompt-friendly text
 const formatProjects = () => {
   return projects
-    .map(
+    ?.map(
       (p) =>
         `- **${p.name}**: ${p.description} (Technologies: ${p.technologies
-          .map((t) => t.name || t.displayName || "Tech")
+          ?.map((t) => t.name || t.displayName || "Tech")
           .join(", ")})`
     )
     .join("\n");
 };
 
 const formatExpertise = () => {
-  return expertise.map((e) => `- **${e.title}**: ${e.description}`).join("\n");
+  return expertise?.map((e) => `- **${e.title}**: ${e.description}`).join("\n");
 };
 
 const formatContact = () => {
-  return contactDetails.map((c) => `- **${c.type}**: ${c.value}`).join("\n");
+  return contactDetails?.map((c) => `- **${c.type}**: ${c.value}`).join("\n");
 };
 
 const formatSocialIcons = () => {
   return socialIcons
-    .map((s) => `- **${s.label}**: [${s.label}](${s.link})`)
+    ?.map((s) => `- **${s.label}**: [${s.label}](${s.link})`)
     .join("\n");
 };
 
 const formatExperience = () => {
   return PortfolioData.about.experience
-    .map(
+    ?.map(
       (exp) =>
         `- **${exp.title}** at ${exp.company} (${exp.dateRange}): Gained valuable industry insights.`
     )
@@ -46,7 +46,7 @@ const formatExperience = () => {
 
 const formatEducation = () => {
   return PortfolioData.about.education
-    .map(
+    ?.map(
       (edu) =>
         `- **${edu.title}** at ${edu.institution} (${edu.dateRange}): Academic foundation in Computer Science & Engineering.`
     )
