@@ -44,7 +44,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\node_modules\@vercel\analytics\dist\react\index.mjs`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\node_modules\@vercel\analytics\dist\react\index.mjs`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -53,9 +53,9 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\node_modules\@vercel\analytics\dist\react\index.mjs#Analytics`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\node_modules\@vercel\analytics\dist\react\index.mjs#Analytics`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\node_modules\@vercel\analytics\dist\react\index.mjs#track`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\node_modules\@vercel\analytics\dist\react\index.mjs#track`);
 
 
 /***/ }),
@@ -72,7 +72,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\node_modules\@vercel\speed-insights\dist\next\index.mjs`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\node_modules\@vercel\speed-insights\dist\next\index.mjs`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -81,7 +81,7 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\node_modules\@vercel\speed-insights\dist\next\index.mjs#SpeedInsights`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\node_modules\@vercel\speed-insights\dist\next\index.mjs#SpeedInsights`);
 
 
 /***/ })

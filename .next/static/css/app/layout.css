@@ -724,9 +724,6 @@ video {
 .ml-2 {
   margin-left: 0.5rem;
 }
-.ml-5 {
-  margin-left: 1.25rem;
-}
 .ml-auto {
   margin-left: auto;
 }
@@ -1461,9 +1458,6 @@ video {
 .p-1 {
   padding: 0.25rem;
 }
-.p-2 {
-  padding: 0.5rem;
-}
 .p-3 {
   padding: 0.75rem;
 }
@@ -1574,9 +1568,6 @@ video {
 }
 .text-center {
   text-align: center;
-}
-.text-end {
-  text-align: end;
 }
 .font-lato {
   font-family: var(--font-lato);
@@ -2637,10 +2628,6 @@ video {
 
   .md\:static {
     position: static;
-  }
-
-  .md\:ml-0 {
-    margin-left: 0px;
   }
 
   .md\:mr-8 {

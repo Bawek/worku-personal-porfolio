@@ -1,4 +1,4 @@
-// File: C:\Users\bawek\OneDrive\Desktop\portfolio\NextJs-Tailwind-Portfolio\app\layout.js
+// File: C:\Users\bawek\OneDrive\Desktop\portfolio\worku-personal-porfolio\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

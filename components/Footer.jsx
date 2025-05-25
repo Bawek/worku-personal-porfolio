@@ -16,7 +16,7 @@ const Footer = () => {
           <FaRegCopyright className="w-4 h-4" /> 2024{" "}
           <span>
             <Link
-              href="https://www.linkedin.com/in/emon-singha209/"
+              href="https://www.linkedin.com/in/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Linkedin Via Credit"
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="flex gap-3 flex-nowrap">
           <Link
-            href="https://github.com/emonsingha209/NextJs-Tailwind-Portfolio"
+            href="https://github.com/go32l"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Star"
@@ -38,7 +38,7 @@ const Footer = () => {
             Star
           </Link>
           <Link
-            href="https://github.com/emonsingha209/NextJs-Tailwind-Portfolio/fork"
+            href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Fork"
