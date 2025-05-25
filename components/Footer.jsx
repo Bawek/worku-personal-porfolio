@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div>
           <ul className="flex gap-3">
-            {socialIcons.map((item, index) => (
+            {socialIcons?.map((item, index) => (
               <li key={index}>
                 <Link
                   href=""
