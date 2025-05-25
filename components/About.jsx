@@ -84,7 +84,7 @@ const About = () => {
                 <CardTitle>{item.title}</CardTitle>
                 <CardDescription>
                   <span className="flex flex-wrap gap-3 mt-1 text-lg">
-                    {item.icons.map((Icon, i) => (
+                    {item?.icons?.map((Icon, i) => (
                       <Icon key={i} />
                     ))}
                   </span>
@@ -106,7 +106,7 @@ const About = () => {
         >
           <Marquee pauseOnHover>
             <ul className="flex gap-5 pr-5 text-5xl flex-nowrap cursor-grabbing">
-              {icons.map((IconSlider, iconIndex) => (
+              {icons?.map((IconSlider, iconIndex) => (
                 <li key={iconIndex}>
                   <IconSlider />
                 </li>
@@ -137,7 +137,7 @@ const About = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="p-0">
-                  {PortfolioData.about.experience.slice().reverse().map((exp, index) => (
+                  {PortfolioData.about.experience.slice().reverse()?.map((exp, index) => (
                     <Link
                       key={index}
                       href={exp.link}
@@ -171,7 +171,7 @@ const About = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="p-0">
-                  {PortfolioData.about.education.map((edu, index) => (
+                  {PortfolioData.about.education?.map((edu, index) => (
                     <Link
                       key={index}
                       href={edu.link}
