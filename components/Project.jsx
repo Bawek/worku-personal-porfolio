@@ -31,7 +31,7 @@ const Project = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-        {displayedProjects.map((project, i) => (
+        {displayedProjects?.map((project, i) => (
           <ProjectCard key={`p_${project.id}`} project={project} index={i} />
         ))}
       </div>
@@ -82,7 +82,7 @@ function ProjectCard({ project, index }) {
 
           <div className="mb-4">
             <span className="flex flex-wrap gap-2 text-2xl text-gray-300">
-              {project.technologies.map((Icon, idx) => (
+              {project.technologies?.map((Icon, idx) => (
                 <Icon
                   key={idx}
                   className="hover:text-blue-400 transition-colors duration-200"
