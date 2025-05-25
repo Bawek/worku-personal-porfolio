@@ -46,25 +46,9 @@ const projects = [
     ],
     liveDemoLinks: [],
   },
+ 
   {
     id: 3,
-    name: "My Portfolio Version One",
-    image: "/img/portfolio.webp",
-    description:
-      "Explore the first iteration of my personal portfolio, built using ReactJS and Tailwind CSS. Version One represents the beginning of my journey in frontend development, showcasing my early skills and creativity in crafting digital experiences. While subsequent versions may have emerged, this original rendition remains a testament to my growth and evolution as a Jr. Software Engineer.",
-    technologies: [FaHtml5, FaCss3, IoLogoJavascript, SiTailwindcss, FaReact],
-    githubLinks: [
-      {
-        label: "Code",
-        url: "https://github.com/",
-      },
-    ],
-    liveDemoLinks: [
-      { label: "Live", url: "https:" },
-    ],
-  },
-  {
-    id: 4,
     name: "RoadSaints Motorcycle Shop",
     image: "/img/roadSaints.webp",
     description:
@@ -91,7 +75,7 @@ const projects = [
     liveDemoLinks: [],
   },
   {
-    id: 5,
+    id: 4,
     name: "Merlin Technology Frontend",
     image: "/img/merlin.webp",
     description:
@@ -104,7 +88,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     name: "Swim Club Management",
     image: "/img/swim-club.webp",
     description:

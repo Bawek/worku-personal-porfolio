@@ -21,37 +21,23 @@ export const PortfolioData = {
       `,
     expertiseTitle: "Experties Area",
     experience: [
-      {
-        dateRange: "3 Sept 2023 - 31 Dec 2023",
-        title: "Web Developer - Intern",
-        company: "Aamra Infotainment Ltd.",
-        link: "https://aamrainfotainment.com/",
-        ariaLabel: "AIL",
-      },
+     
       {
         dateRange: "3 June 2024 - 30 November 2024",
         title: "Intern Frontend Developer",
         company: "SJ Innovation LLC",
-        link: "https://sjinnovation.com/",
+        link: "https://sjinnoation.com/",
         ariaLabel: "SJI",
       },
       {
         dateRange: "1 December 2024 - Present",
         title: "Jr. Software Engineer",
-        company: "SJ Innovation LLC",
-        link: "https://sjinnovation.com/",
+        company: "Alx ",
+        link: "https://sjinnovion.com/",
         ariaLabel: "SJI",
       },
     ],
-    education: [
-      {
-        dateRange: "2020 - 2023",
-        title: "Bachelor of Science in Computer Science & Engineering",
-        institution: "American International University-Bangladesh (AIUB)",
-        link: "https://www.aiub.edu/",
-        ariaLabel: "AIUB",
-      },
-    ],
+   
     experienceCard: {
       title: "Experience",
       description: "Gained valuable industry insights.",

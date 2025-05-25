@@ -21,7 +21,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Linkedin Via Credit"
             >
-              Emon Singha.
+             Worku manaye
             </Link>
           </span>{" "}
           All rights reserved.
@@ -53,7 +53,7 @@ const Footer = () => {
             {socialIcons.map((item, index) => (
               <li key={index}>
                 <Link
-                  href={item.link}
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={item.label}
