@@ -12,7 +12,7 @@ const NavbarItem = () => {
   return (
     <nav className="flex items-center justify-center z-40 h-full font-oswald ">
       <ul className="flex items-center gap-5 px-5  uppercase list-none text-base  md:text-lg rounded-full h-12 flex-row text-nowrap bg-secondary md:bg-secondary/50">
-        {navData.map((item, index) => (
+        {navData?.map((item, index) => (
           <li key={index} className="relative h-full">
             <Link
               href="/"
